@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>03 Bootstrap Solution</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+      integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <style>
+      #container {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/62/Paracas_National_Reserve%2C_Ica%2C_Peru-3April2011.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      img {
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/34/Home-icon.svg"
+            alt="Logo"
+            width="20"
+            class="d-inline-block align-text-top pt-1"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-between"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >You are in India</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Our Products</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Promotions</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center">
+            <div class="me-4">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+            <div class="me-4">
+              <button class="btn btn-success btn-sm px-3">Login</button>
+            </div>
+
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Standard_Chartered_%282021%29.svg/2560px-Standard_Chartered_%282021%29.svg.png"
+                alt="logo"
+                height="50"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="container" class="p-2">
+      <div class="mt-2 mb-4">
+        <p class="text-center text-light display-4">
+          Welcome to Standard Chartered
+        </p>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg"
+              class="card-img-top"
+              alt="..."
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Combating the illegal wildlife trade</h5>
+
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ANA_777-300_Taking_off_from_JFK.jpg"
+              class="card-img-top"
+              alt="..."
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Invest like you never left India</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/19/High_school_students%2C_SAS_Pudong.jpg"
+              class="card-img-top"
+              alt="..."
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Explore the opportunities</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/57/Smartphone_Use.jpg"
+              class="card-img-top"
+              alt="..."
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                SC Edge app - Exclusive for salary accounts
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and go.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Corpus_Christi_College_New_Court%2C_Cambridge%2C_UK_-_Diliff.jpg"
+              class="card-img-top"
+              alt="..."
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Higher education for your success</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
